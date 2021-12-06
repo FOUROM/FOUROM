@@ -83,15 +83,15 @@
             </div>
         </nav>
     </header>
-    <div class="top">
+     <div class="top">
         <div class="container">
-            <div class="gift">
+            <div class="gift pb-5">
                 <h3 class="pt-5 text-center mx-auto text-light">FOUROM GIFTFINDER 2022</h3>
                 <h5 class="mt-4 text-light text-center">FOUROMの「ギフト ファインダー」で想いのこもった贈り物を見つけましょう</h5>
                 <img src="gift-finder.jpg" class="img-fluid pt-5">
                 <h5 class="pt-5 text-center text-light">贈り物の相手は</h5>
                 <div id="carouselExampleControls" class="border-bottom border-white carousel slide"
-                    data-interval="false" data-ride="carousel">
+                    data-bs-interval="false" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <p class="text-light text-center fs-5">男性</p>
@@ -114,7 +114,9 @@
                 </div>
                 <h5 class="pt-5 text-center text-light">その方が夢見るホリデーは</h5>
                 <div id="carouselControls"
-                    class="border-bottom border-white carousel slide data-interval=5000 data-wrap=false data-ride=true">
+                    class="border-bottom border-white carousel slide data-interval=5000 data-wrap=false data-ride=true"
+                    data-bs-interval="false">
+                    >
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <p class="text-light text-center fs-5">輝いている</p>
@@ -143,7 +145,8 @@
                 </div>
                 <h5 class="pt-5 text-center text-light">その方が喜ぶのは</h5>
                 <div id="carouselControls1"
-                    class="border-bottom border-white carousel slide data-interval=5000 data-wrap=false data-ride=true">
+                    class="border-bottom border-white carousel slide data-interval=5000 data-wrap=false data-ride=true"
+                    data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item">
                             <p class="text-light text-center fs-5">特別感のあるギフト</p>
@@ -164,16 +167,63 @@
                         <span class="visually-hidden">Next</span>
                     </a>
                 </div>
-                <div class="button text-center pt-5">
-                    <button type="button" class="btn btn-light rounded-pill">完璧なギフトを見る</button>
+                <div class="text-center pt-5">
+                    <a class="btn btn-light rounded-pill" data-bs-toggle="collapse" href="#collapseExample"
+                        role="button" aria-expanded="false" aria-controls="collapseExample">
+                        完璧なギフトを見る
+                    </a>
                 </div>
-                
+
+                <div class="collapse" id="collapseExample">
+                    <div class="">
+                        <h5 class="pt-5 text-center text-light">THE GIFT OF PERFECTION<h5>
+                                <h5 class="pt-3 text-center text-light">・完璧なギフト・</h5>
+                                <img src="gift-dior.jpg" class="img-fluid pt-5">
+                    </div>
+                </div>
+                <div class=""></div>
+
             </div>
 
         </div>
 
+    </div>
+    <footer style="background-color:#f1f5f8;">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-4">
+                    <a href="#">
+                        <img src="logo2.png" alt="" width="150">
+                    </a>
+                </div>
+                <div class="col-8 my-auto">
+                    <ul style="list-style:none;" 　class="list-inline">
+                        <li class="list-inline-item me-3">
+                            <a href="#" class="text-reset text-decoration-none">会社概要</a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <a href="#" class="text-reset text-decoration-none">利用規約</a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <a href="#" class="text-reset text-decoration-none">ガイドライン</a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <a href="#" class="text-reset text-decoration-none">プライバシーポリシー</a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <a href="#" class="text-reset text-decoration-none">特定商取引法に基づく表記</a>
+                        </li>
+                        <li class="list-inline-item me-3">
+                            <p>アイコン利用：
+                                <a href="https://icons8.jp/" class="text-reset text-decoration-none">ICONS8</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-
+        </div>
+    </footer>
 </body>
 
 </html>
